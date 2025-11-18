@@ -1,16 +1,86 @@
-# React + Vite
+# Counter By Using React
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This repository contains a simple counter application built with React. The project demonstrates basic concepts of React such as state management, event handling, and component structure. It can serve as a starting point for beginners learning React or as a template for simple interactive applications.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Increment and decrement the counter value
+- Reset the counter to zero
+- Simple and responsive UI
+- Easy to understand and extend
 
-## React Compiler
+## Getting Started
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Follow these instructions to set up and run the project locally.
 
-## Expanding the ESLint configuration
+### Prerequisites
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- [Node.js](https://nodejs.org/) (v14 or higher recommended)
+- [npm](https://www.npmjs.com/) (comes with Node.js) or [yarn](https://yarnpkg.com/)
+
+### Installation
+
+1. **Clone the repository**
+
+   ```bash
+   git clone https://github.com/maheshgollapalli/CounterByUsingReact.git
+   cd CounterByUsingReact
+   ```
+
+2. **Install dependencies**
+
+   ```bash
+   npm install
+   # or
+   yarn install
+   ```
+
+3. **Run the development server**
+
+   ```bash
+   npm start
+   # or
+   yarn start
+   ```
+
+4. Open [http://localhost:3000](http://localhost:3000) to view the app in your browser.
+
+## Project Structure
+
+```
+CounterByUsingReact/
+├── public/
+│   └── index.html
+├── src/
+│   ├── App.js
+│   ├── index.js
+│   └── ...
+├── package.json
+└── README.md
+```
+
+- `src/App.js` - Main React component implementing the counter functionality.
+- `src/index.js` - Entry point for React.
+- `public/index.html` - The HTML template.
+
+## Usage
+
+- Click the increment (+) button to increase the counter value.
+- Click the decrement (–) button to decrease the counter value.
+- Click the reset button to set the counter back to 0.
+
+## Screenshots
+
+*Add screenshots here if you wish.*
+
+## Contributing
+
+Contributions are welcome! If you have suggestions or find issues, please open an issue or submit a pull request.
+
+## License
+
+This project is open source and available under the [MIT License](LICENSE).
+
+---
+
+Happy coding! 🚀
